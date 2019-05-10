@@ -1,977 +1,239 @@
 <!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('/w3images/profile_girl.jpg');
+  min-height: 100%;
+}
+</style>
+<body>
 
-<html lang="en">
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
 
-  <head>
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
 
-    <meta charset="utf-8">
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Jane Doe</b></h1>
+    <p>Photographer and Web Designer.</p>
+    <img src="/w3images/profile_girl.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="/w3images/profile_girl.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+  </header>
 
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <!-- Portfolio Section -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <h2 class="w3-text-grey">My Portfolio</h2>
+    <hr class="w3-opacity">
 
-    <title>:: Startr :: Free Startup landing page</title>
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="/w3images/wedding.jpg" style="width:100%">
+        <img src="/w3images/rocks.jpg" style="width:100%">
+        <img src="/w3images/sailboat.jpg" style="width:100%">
+      </div>
 
+      <div class="w3-half">
+        <img src="/w3images/underwater.jpg" style="width:100%">
+        <img src="/w3images/chef.jpg" style="width:100%">
+        <img src="/w3images/wedding.jpg" style="width:100%">
+        <img src="/w3images/p6.jpg" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About</h2>
+    <hr class="w3-opacity">
+    <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing
+      elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <h3 class="w3-padding-16">My Skills</h3>
+    <p class="w3-wide">Photography</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:95%">95%</div>
+    </div>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+    </div>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
+    </div><br>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">14+</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">55+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">89+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">150+</span><br>
+        Meetings
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24">My Reputation</h3>
+    <img src="/w3images/avatar_smoke.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Chandler Bing.</span> Web Designer.</p>
+    <p>Jane Doe is just awesome. I am so happy to have met her!</p><br>
+   
+    <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
+    <p>Jane Doe saved us from a web disaster.</p><br>
     
-
-    <!-- style -->
-
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-
-    <!-- Bootstrap -->
-
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-
-    <!-- carousel -->
-
-    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css">
-
-    <!-- responsive -->
-
-    <link href="css/responsive.css" rel="stylesheet" type="text/css">
-
-    <!-- font-awesome -->
-
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-    <!-- font-awesome -->
-
-    <link href="css/animate.min.css" rel="stylesheet" type="text/css">
-
-    <link href="css/popup.css" rel="stylesheet" type="text/css">
-
-  </head>
-
-   <body class="module-home" data-spy="scroll" data-target=".navbar">
-
-
-
-	<!-- header -->
-
-    	<header role="header" class="header-top" id="headere-top">
-
-        
-
-        	<div class="header-fixed-wrapper" role="header-fixed">
-
-                <div class="container">
-
-                    <!-- hgroup -->
-
-                    <hgroup class="row">
-
-                        <!-- logo -->
-
-                        <div class="col-xs-5 col-sm-2 col-md-2 col-lg-2">
-
-                            <h1>
-
-                                <a href="#headere-top" title="Rooky"><img src="images/logo.png" alt="Rooky" title="Rooky"/></a>
-
-                            </h1>
-
-                        </div>
-
-                        <!-- logo -->
-
-                        <!-- nav -->
-
-                        <nav role="navigation" class="col-xs-12 col-sm-10 col-md-10 col-lg-10 navbar navbar-default">
-
-                            <div class="navbar-header">
-
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-
-                                    <span class="sr-only">Toggle navigation</span>
-
-                                    <span class="icon-bar"></span>
-
-                                    <span class="icon-bar"></span>
-
-                                    <span class="icon-bar"></span>
-
-                                </button>
-
-                            </div>
-
-                            <div id="navbar" class="navbar-collapse collapse">            
-
-                                <ul class="nav navbar-nav">			          
-
-                                    <li class="active"><a href="#headere-top" title="Home">Home</a></li>
-
-                                    <li><a href="#section-one" title="Overview">Overview</a></li>
-
-                                    <li><a href="#section-two" title="Features">Features</a></li>
-
-                                    <li><a href="#section-three" title="Pricing">Pricing</a></li>
-
-                                    <li><a href="#section-four" title="Team">Team</a></li>
-
-                                    <li><a href="#section-five" title="Contact">Contact</a></li>
-
-                                    <li><a href="#section-six" title="Join Us">Join Us</a></li>            
-
-                                </ul>
-
-                            </div>
-
-                        </nav>
-
-                        <!-- nav -->
-
-                    </hgroup>
-
-                    <!-- hgroup -->
-
-                  </div>
-
-            </div>
-
-            <!-- banner Text --> 
-
-                 <section class="text-center">
-
-                    <h2>Landing Page For Startup Company</h2>
-
-                    <p>Perfect and awesome theme to present your product or service</p>
-
-                     
-
-                     <a class="popup-vimeo video-button" href="https://vimeo.com/45830194"><i class="fa fa-caret-right" aria-hidden="true"></i></a>
-
-                     <a  href="#" class="button-header">Get Strated</a>
-
-                </section>
-
-                
-
-            <!-- banner Text -->   
-
-                
-
-            <!-- banner image -->
-
-        	<figure>
-
-            	<div class="parallax-window item tp-banner-container" data-parallax="scroll" data-image-src="http://placehold.it/1920x840"></div>
-
-            </figure>
-
-            <!-- banner image -->
-
-        </header>
-
-    <!-- header -->
-
-	
-
-    <!-- main -->
-
-    	<main role="main" id=" main-wrapper">
-
-        	
-
-            <!-- top pan -->
-
-            <section role="loges" class="top-pan">
-
-            	<div class="container">
-
-                	<ul class="row">
-
-                    	<li class="col-xs-12 col-sm-3 col-md-2 col-lg-2 ">Trusted by</li>
-
-                        <li class="col-xs-4 col-sm-3 col-md-2 col-lg-2 ">
-
-                        	<a href="#"><img src="images/logoes/logoes-1.png" alt="" class="img-responsive"/></a>
-
-                        </li>
-
-                        <li class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
-
-                        	<a href="#"><img src="images/logoes/logoes-2.png" alt="" class="img-responsive"/></a>
-
-                        </li>
-
-                        <li class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
-
-                        	<a href="#"><img src="images/logoes/logoes-3.png" alt="" class="img-responsive"/></a>
-
-                        </li>
-
-                        <li class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
-
-                        	<a href="#"><img src="images/logoes/logoes-4.png" alt="" class="img-responsive"/></a>
-
-                        </li>
-
-                        <li class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
-
-                        	<a href="#"><img src="images/logoes/logoes-5.png" alt="" class="img-responsive"/></a>
-
-                        </li>
-
-                    </ul>
-
-                </div>
-
-            </section>
-
-        	<!-- top pan -->
-
-            
-
-            <!-- section-one -->
-
-            <section class="section-one text-center" id="section-one">
-
-            	<div class="container">
-
-                	<header role="title-page">
-
-                        <h4>What we do</h4>
-
-                        <h2>We make your business gain more<br/>revenue at a glance.</h2>
-
-                    </header>
-
-                    <article>
-
-                    	<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, ves<br/>
-
-                        tibulum at eros. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue.<br/>
-
-                        Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas mollis interdum!</p>
-
-                    </article>
-
-                    
-
-                    <!-- four boxes  -->
-
-                    	<div class="row four-box-pan" role="four-box">
-
-                        	
-
-                            <section class="col-xs-12 col-sm-6 col-md-3">
-
-                            	<figure><i class="fa fa-rocket" aria-hidden="true"></i></figure>
-
-                            	<h5>STARTUP FEATURE</h5>
-
-                                <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo orta felis euismod semper.</p>
-
-                            </section>
-
-                            <section class="col-xs-12 col-sm-6 col-md-3">
-
-                            	<figure><i class="fa fa-magic" aria-hidden="true"></i></figure>
-
-                            	<h5>Higly customizable</h5>
-
-                                <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo orta felis euismod semper.</p>
-
-                            </section>
-
-                            <section class="col-xs-12 col-sm-6 col-md-3">
-
-                            	<figure><i class="fa fa-paper-plane" aria-hidden="true"></i></figure>
-
-                            	<h5>Simplified workflow</h5>
-
-                                <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo orta felis euismod semper.</p>
-
-                            </section>
-
-                            <section class="col-xs-12 col-sm-6 col-md-3">
-
-                            	<figure><i class="fa fa-television" aria-hidden="true"></i></figure>
-
-                            	<h5>Cross platform</h5>
-
-                                <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo orta felis euismod semper.</p>
-
-                            </section>
-
-                            
-
-                        </div>
-
-                    <!-- four boxes -->
-
-                    
-
-                </div>
-
-            </section>
-
-            <!-- section-one -->
-
-            
-
-            <!-- section-two -->
-
-            <section class="section-two" id="section-two">
-
-            	
-
-                <!-- image-content -->
-
-                <section>
-
-                	<div class="col-xs-12 col-sm-6 col-md-6">
-
-                    	<article>
-
-                        	<h2>Get Maxium benifites by working with our experts.</h2>
-
-                            <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo orta felis euismod semper.Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo orta felis euismod semper.</p>
-
-                            <ul>
-
-                                <li>Maecenas sed diam eget risus varius </li>
-
-                                <li>orta felis euismod semper.Maecenas sed diam </li>
-
-                                <li>amet non magna. Morbi leo orta semper.</li>
-
-                                <li>Maecenas sed diam eget risus</li>
-
-                            </ul>
-
-                        </article>
-
-                    </div>
-
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-
-                        <figure class="row" style="background-image:url('http://placehold.it/1600x800')"></figure>
-
-                    </div>
-
-                 </section>
-
-                <!-- image-content -->
-
-                <div class="clearfix"></div>
-
-                 <!-- image-content -->
-
-                 <section>
-
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-
-                    	<figure class="row" style="background-image:url('http://placehold.it/1600x800')"></figure>
-
-                    </div>
-
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-
-                    	<article>
-
-                    		<h2>We even give you more than your expectation</h2>
-
-                            <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo orta felis euismod semper.Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo orta felis euismod semper.Maecenas sed diam eget risus varius blandit sit amet non magna. </p>
-
-                            <p>Morbi leo orta felis euismod semper.Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo orta felis euismod semper.Morbi leo orta felis euismod semper.Maecenas sed diam eget risus varius.</p>
-
-                        </article>
-
-                    </div>
-
-                 </section>
-
-                <!-- image-content -->
-
-                <div class="clearfix"></div>
-
-                
-
-                <!-- video -->
-
-                <div class="video-pan text-center">
-
-                	<a id="video" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=0K-g84sK6R0',containment:'.bg-container-youtube', showControls:false,autoPlay:true, loop:true, startAt:0, opacity:1, addRaster:false, quality:'large'}"></a>
-
-        
-
-                    <!-- 5.0 background container autoPlay:true,  -->
-
-                    <div class="bg-container-youtube"></div>
-
-                	<header><a class="popup-vimeo video-button" href="https://vimeo.com/45830194"><i class="fa fa-caret-right" aria-hidden="true"></i></a>
-
-                    <h4>Video Preview Of Product</h4>
-
-                    </header>
-
-                </div>
-
-                <!-- video -->
-
-                
-
-                <!--slider pan -->
-
-                <div class="slider-pan">
-
-                	<header role="title-page" class="text-center">
-
-                    	<h4>Customer Voice</h4>
-
-                    </header>
-
-                    <!-- carousel -->
-
-                    <div id="owl-demo" class="owl-carousel text-center" role="slider">
-
-                    
-
-                    	<section class="item">
-
-                            <article>
-
-                                Morbi leo orta felis euismod semper.Maecenas sed diam eget risus varius blandit sit <br/>
-
-                                amet non magna felis euismod leo orta felis semper.	
-
-                            </article>
-
-                            <header>
-
-                                <h5>Antony Casalena</h5>
-
-                                <h6>Vice president, IQTeam</h6>
-
-                            </header>
-
-                       	</section>
-
-                        <section class="item">
-
-                            <article>
-
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis tortor nec diam dapibus<br>efficitur in quis sem. Morbi tristique purus at vestibulum malesuada. 	
-
-                            </article>
-
-                            <header>
-
-                                <h5>Brain Rice</h5>
-
-                                <h6>VP, Lexix Pvt Ltd</h6>
-
-                            </header>
-
-                       	</section>
-
-                        <section class="item">
-
-                            <article>
-
-                                Morbi leo orta felis euismod semper.Maecenas sed diam eget risus varius blandit sit <br/>
-
-                                amet non magna felis euismod leo orta felis semper.	
-
-                            </article>
-
-                            <header>
-
-                                <h5>Antony Casalena</h5>
-
-                                <h6>Vice president, IQTeam</h6>
-
-                            </header>
-
-                       	</section>
-
-                        <section class="item">
-
-                            <article>
-
-                                Morbi leo orta felis euismod semper.Maecenas sed diam eget risus varius blandit sit <br/>
-
-                                amet non magna felis euismod leo orta felis semper.	
-
-                            </article>
-
-                            <header>
-
-                                <h5>Antony Casalena</h5>
-
-                                <h6>Vice president, IQTeam</h6>
-
-                            </header>
-
-                       	</section>
-
-                        
-
-                        
-
-                    </div>
-
-                    <!-- carousel -->
-
-                </div>
-
-                <!--slider pan -->
-
-                
-
-            </section>
-
-            <!-- section-two -->
-
-            
-
-            <!-- section-three -->
-
-            <section class="section-three" id="section-three">
-
-            	<div class="container">
-
-                	<header role="title-page" class="text-center">
-
-                    	<h4>Flexible Plans</h4>
-
-                        <h2>Select the plan that suits you. Upgrade,<br/> downgrade, or cancel anytime.</h2>
-
-                    </header>
-
-                    <!-- pricing -->
-
-                    <div class="pricing">
-
-                    	<section>
-
-                        	<header><h4>Bronze</h4></header>
-
-                            <h2><span>$10</span> /mo</h2>
-
-                            <ul>
-
-                                <li>Free Shipping</li>
-
-                                <li>24/7 Support</li>
-
-                                <li>Single Licence</li>
-
-                            </ul>
-
-                            <input name="" type="button" value="get Strated">
-
-                        </section>
-
-                        <section>
-
-                        	<header><h4>Silver</h4></header>
-
-                            <h2><span>$20</span> /mo</h2>
-
-                            <ul>
-
-                                <li>Free Shipping</li>
-
-                                <li>24/7 Support</li>
-
-                                <li>Single Licence</li>
-
-                            </ul>
-
-                            <input name="" type="button" value="get Strated">
-
-                        </section>
-
-                        <section>
-
-                        	<header><h4>Gold</h4></header>
-
-                            <h2><span>$50</span> /mo</h2>
-
-                            <ul>
-
-                                <li>Free Shipping</li>
-
-                                <li>24/7 Support</li>
-
-                                <li>Single Licence</li>
-
-                            </ul>
-
-                            <input name="" type="button" value="get Strated">
-
-                        </section>
-
-                    </div>
-
-                    <!-- pricing -->
-
-                </div>
-
-            </section>
-
-            <!-- section-three -->
-
-            
-
-            <!-- section-four -->
-
-            <section class="section-four" id="section-four">
-
-            	<div class="container">
-
-                    <header role="title-page" class="text-center">
-
-                        <h4>Meet The Team</h4>
-
-                        <h2>Our team is passionate about bringing the <br/>best for our customers.</h2>
-
-                    </header>
-
-                    <!-- Team -->
-
-                    <div class="team-pan row">
-
-                    	
-
-                        <section class="col-xs-12 col-sm-6 col-md-3">
-
-                        	<figure><img src="http://placehold.it/249x263" alt="" class=" img-responsive"/></figure>
-
-                        	<header>
-
-                            	<h5>Antony Casalena</h5>
-
-								<h6>Vice president</h6>
-
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-
-                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-
-                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-
-                                <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-
-                                <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-
-                            </header>
-
-                        </section>
-
-                        <section class="col-xs-12 col-sm-6 col-md-3">
-
-                        	<figure><img src="http://placehold.it/249x263" alt="" class=" img-responsive"/></figure>
-
-                        	<header>
-
-                            	<h5>Anaia Doe</h5>
-
-								<h6>Creative Head</h6>
-
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-
-                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-
-                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-
-                                <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-
-                                <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-
-                            </header>
-
-                        </section>
-
-                        <section class="col-xs-12 col-sm-6 col-md-3">
-
-                        	<figure><img src="http://placehold.it/249x263" alt="" class=" img-responsive"/></figure>
-
-                        	<header>
-
-                            	<h5>Johnathan Doe</h5>
-
-								<h6>Development Lead</h6>
-
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-
-                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-
-                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-
-                                <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-
-                                <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-
-                            </header>
-
-                        </section>
-
-                        <section class="col-xs-12 col-sm-6 col-md-3">
-
-                        	<figure><img src="http://placehold.it/249x263" alt="" class=" img-responsive"/></figure>
-
-                        	<header>
-
-                            	<h5>Julian Gulia</h5>
-
-								<h6>Marketing Head</h6>
-
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-
-                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-
-                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-
-                                <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-
-                                <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-
-                            </header>
-
-                        </section>
-
-                        
-
-                    </div>
-
-                    <!-- Team -->
-
-                </div>
-
-            </section>
-
-            <!-- section-fore -->
-
-            
-
-            <!-- section-five -->
-
-            <section class="section-five" id="section-five">
-
-            	<div class="container">
-
-                	 <header role="title-page" class="text-center">
-
-                        <h4>Newsletter Subscribe</h4>
-
-                        <h2>Subscribe to get monthly products updates<br/>and exclusive offers</h2>
-
-                    </header>
-
-                    <!-- subscribe -->
-
-                    <div class="subscribe-form">
-
-                        <div class="ntify_form">
-
-                            <form method="post" action="php/subscribe.php" name="subscribeform" id="subscribeform">
-
-                                <input name="email" type="email" id="subemail" placeholder="Email Address">
-
-								
-
-                                <button type="submit" name="" value="Submit">
-
-                                Subscribe <i class="fa fa-envelope" aria-hidden="true"></i></button>
-
-                            </form>
-
-                            <!-- subscribe message -->
-
-                            <div id="mesaj"></div>
-
-                            <!-- subscribe message --> 
-
-                        </div>
-
-                    </div>
-
-                    <!-- subscribe -->
-
-                </div>
-
-            </section>
-
-            <!-- section-five -->
-
-            
-
-            <!-- section-six -->
-
-            <section class="section-six" id="section-six">
-
-            	<div class="container">
-
-                	 <header role="title-page" class="text-center">
-
-                        <h4>Get in touch</h4>
-
-                        <h2>Have any questions? Our team will happy to<br/>answer your questionss.</h2>
-
-                    </header>
-
-                    <!-- contact-form -->
-
-                    <div class="contact-form">
-
-                        <div id="message"></div>
-
-                                <form method="post" action="php/contactfrom.php" name="cform" id="cform">
-
-                                <div class="col-md-6 col-lg-6 col-sm-6">
-
-                                	<input  name="name" id="name" type="text" placeholder="Full Name">
-
-                                </div>
-
-                                <div class="col-md-6 col-lg-6 col-sm-6">
-
-                                	<input  name="email" id="email" type="email"  placeholder="Email Address">
-
-                                </div>
-
-                                <div class="clearfix"></div>
-
-                                <textarea name="comments" id="comments" cols="" rows="" placeholder="Question in Detail"></textarea>
-
-                                <div class="clearfix"></div>
-
-                                <input name="" type="submit" value="Send mail">
-
-                                <div id="simple-msg"></div>
-
-                        </form>
-
-                     </div>
-
-                    <!-- contact-form -->
-
-                    <div class="clearfix"></div>
-
-                </div>
-
-                <!-- map -->
-
-                 <div class="map-wrapper">
-
-                        <div id="surabaya"></div>
-
-                    </div>
-
-                <!-- map -->
-
-            </section>
-
-            <!-- section-six -->
-
-            
-
-           <!-- footer -->
-
-           <footer role="footer" class="footer text-center">
-
-           		<div class="container">
-
-                	<!-- socil-icons -->
-
-                	<section role="socil-icons" class="socil-icons">
-
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-
-                        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-
-                        <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-
-                        <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-
-                    </section>
-
-                    <!-- socil-icons -->
-
-                    <!-- nav -->
-
-                    <nav role="footer-nav">
-
-                        <a href="#">Terms of Use </a> 
-
-                        <a href="#">Privacy Policy</a>
-
-                    </nav>
-
-                    <!-- nav -->
-
-                    <p class="copy">Shared by <i class="fa fa-love"></i><a href="https://bootstrapthemes.co">BootstrapThemes</a></p>
-
-                </div>
-
-           </footer>
-
-           <!-- footer -->
-
-            
-
-        </main>
-
-    <!-- main -->
-
+    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
+    <p>No one is better than Jane Doe.</p><br>
     
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16">My Price</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">5GB Storage</li>
+          <li class="w3-padding-16">Mail Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 10</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
 
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-
-    <script src="js/jquery.min.js" type="text/javascript"></script>
-
+      <div class="w3-half">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">50GB Storage</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 25</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
     
+  <!-- End About Section -->
+  </div>
 
-	<script src="js/parallax.min.js" type="text/javascript"></script>
+  <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Me</h2>
+    <hr class="w3-opacity">
 
-	<script type="text/javascript">
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chicago, US</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    </div>
+    
+    <!-- Image of location/map -->
+    <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin:32px 0">
+   
+    <p>Lets get in touch. Send me a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>  
+  
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+  
+<!-- END PAGE CONTENT -->
+</div>
 
-    	$('.parallax-window').parallax({});
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
 
-    </script>
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
 
-    <script src="js/main.js" type="text/javascript"></script>
-
-	<script src="js/owl.carousel.js" type="text/javascript"></script>
-
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script> 
-
-	<script src="js/maps.js" type="text/javascript"></script>
-
-    <script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
-
-	<script type="text/javascript" src="js/video.js"></script>
-
-    <script src="js/custom.js" type="text/javascript"></script>
-
-	<script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
-
-	<script src="js/jquery.contact.js" type="text/javascript"></script>
-
-    <script src="js/bootstrap.min.js" type="text/javascript"></script>
-
-	<script src="js/html5shiv.min.js" type="text/javascript"></script>
-
-
-
-  </body>
-
+</body>
 </html>
