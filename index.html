@@ -199,19 +199,8 @@ body {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-}
+ 
 
-/* The actual timeline (the vertical ruler) */
-.timeline::after {
-  content: '';
-  position: absolute;
-  z-index: -2;
-  width: 2px;
-  background-color: black;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -3px;
 }
 
 /* Container around content */
@@ -221,6 +210,25 @@ body {
   position: relative;
   background-color: inherit;
   width: 50%;
+
+
+
+
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  z-index: -2;
+  width: 0.9px;
+  background-color: #4A99D9;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+
+
 }
 
 /* The circles on the timeline */
@@ -228,14 +236,19 @@ body {
   content: '';
   position: absolute;
   z-index: -2;
-  width: 25px;
-  height: 25px;
+  width: 1px;
+  height: 1px;
   right: -17px;
-  background-color: white;
-  border: 4px solid white;
+  background-color: #616161;
+  border: 3px solid white;
   top: 15px;
   border-radius: 50%;
-  z-index: 0;
+
+
+
+
+
+
 }
 
 /* Place the container to the left */
@@ -257,9 +270,9 @@ body {
   top: 22px;
   width: 0;
   right: 30px;
-  border: medium solid black;
+  border: medium solid #616161;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent black;
+  border-color: transparent transparent transparent #616161;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -271,9 +284,9 @@ body {
   top: 22px;
   width: 0;
   left: 30px;
-  border: medium solid white;
+  border: medium solid #616161;;
   border-width: 10px 10px 10px 0;
-  border-color: transparent black transparent transparent;
+  border-color: transparent #616161 transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -288,8 +301,8 @@ body {
   color: white;
   z-index: -2;
   position: relative;
-  border: medium solid white;
-  border-radius: 15px;
+  border: #616161;
+  border-radius: 3px;
  
 }
 
@@ -311,10 +324,10 @@ body {
   /* Make sure that all arrows are pointing leftwards */
   .container::before {
   left: 60px;
-  border: medium solid black;
+  border: medium solid #616161;
   z-index: -2;
   border-width: 10px 10px 10px 0;
-  border-color: transparent black transparent transparent;
+  border-color: transparent #616161 transparent transparent;
   }
 
   /* Make sure all circles are at the same spot */
@@ -588,6 +601,6 @@ display: inline-block;
 
 
          <p class="buttond"  style="text-align: left"><a href="https://www.emiia.ru/p/confidentiality.html"
-target="_self" style="cursor: pointer; text-align: center;  font-size:11px;  text-decoration: none; padding:3px; color:#000000; background-color: 	transparent; border-radius:10px; border: 0px solid #000000;">© 2019 iACTUATOR</a>
+target="_self" style="cursor: pointer; text-align: center;  font-size:11px;  text-decoration: none; padding:3px; color:#000000; background-color: 	transparent; border-radius:10px; border: 0px solid #000000;">© 2019 iACTUATOR — ИНТЕЛЛЕКТУАЛЬНЫЕ АКТУАТОРЫ</a>
 </div>
   
