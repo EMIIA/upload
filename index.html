@@ -462,9 +462,7 @@ target="_self" style="cursor: pointer; text-align: left;  font-size:13px;  text-
 
 
 
-  
-<div style="position: fixed; top: 6%; left: 7%; z-index: +3;">
-<a href="https://upload.emiia.ru/"><img alt="iACTUATOR" src="https://iactuator.github.io/ialogo1.svg" style="background-color: transparent; font-family: &quot;times new roman&quot;; font-weight: 700;" title="Home" /></a></div>
+
 
 
 
@@ -473,18 +471,17 @@ target="_self" style="cursor: pointer; text-align: left;  font-size:13px;  text-
   
  <style>
     .menu ul {
-      margin: 0;
+      margin:-30px;
       list-style: none;
 font-family: "Montserrat", sans-serif;
-      padding-left: 0px;
+      padding-right: auto;
       display: none;
   position: auto;
-    background-color: white;
-    min-width: 250px;
-border-radius:10px; 
-border: 3px solid #ffffff;
- line-height: 20px;
-    overflow: none;
+    min-width: 340px;
+border-radius:20px; 
+border: 0px solid #ffffff;
+ line-height: -20px;
+background-color: white;
     box-shadow: 50px 50px 1000px 2500px rgba(255,255,255,255.255);
     z-index: +2;
     }
@@ -497,7 +494,7 @@ display: inline-block;
 }
     .menu .title {
       font-size: 40px;
-      cursor: pointer;
+
     
     }
     .menu .title:before {
@@ -513,6 +510,9 @@ display: inline-block;
     right: 25px; 
     top: 3.9%; 
     z-index: +2;
+
+    
+    
     
     }
     .menu.open ul {
@@ -520,7 +520,6 @@ display: inline-block;
       
     }
   </style>
-
 
 
   <div id="sweeties" class="menu" class="menu-ul">
@@ -534,7 +533,9 @@ display: inline-block;
 <br/>
 <br/>
 
-
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a>
+  <div class="overlay-content">
 <p class="buttond"  style="text-align: left"><a href="https://upload.emiia.ru/" target="_self" style="cursor: pointer; font-size:12px;  text-decoration: none; padding:8px; color:#000000; background-color:#ffffff; border-radius:3px; border: 0px solid #000000;">ГЛАВНАЯ</a></p>
 
 
@@ -586,14 +587,31 @@ display: inline-block;
     </div></ul>
 
   </div>
+  
 
   <script>
-    var menuElem = document.getElementById('sweeties');
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+
+
+ var menuElem = document.getElementById('sweeties');
     var titleElem = menuElem.querySelector('.title');
     titleElem.onclick = function() {
       menuElem.classList.toggle('open');
-    };
-  </script>
+    }
+
+</script>
+     
+</body>
+</html>
+
+
+
 
 
 <br/>
