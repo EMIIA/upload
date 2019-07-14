@@ -28,8 +28,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.2284597"
-     inkscape:cx="39.808174"
+     inkscape:zoom="16.913839"
+     inkscape:cx="69.66623"
      inkscape:cy="34.978833"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -71,18 +71,6 @@
          x="70.045975"
          y="146.3318"
          style="stroke-width:0.26458332" /></text>
-    <polygon
-       transform="matrix(0.00613869,0,0,0.00613775,14.753023,108.41606)"
-       style="clip-rule:evenodd;fill:#000000;fill-rule:evenodd;stroke-width:1.62913418;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
-       id="polygon824"
-       points="8298.74,4816.12 8297.33,4826 8305.8,4826 "
-       class="fil1" />
-    <polygon
-       transform="matrix(0.00613869,0,0,0.00613775,14.753023,108.41606)"
-       style="clip-rule:evenodd;fill:#000000;fill-rule:evenodd;stroke-width:1.62913418;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
-       id="polygon826"
-       points="7085.19,5369.28 7086.6,5359.4 7078.14,5359.4 "
-       class="fil1" />
     <path
        id="path818"
        d="M 67.296845,133.42455 H 56.720583 c -0.621816,0 -1.125701,0.50601 -1.125701,1.13045 v 10.62075 c 0,0.62443 0.503885,1.13044 1.125701,1.13044 h 10.576262 c 0.621817,0 1.125702,-0.50601 1.125702,-1.13044 V 134.555 c 0,-0.62444 -0.503885,-1.13045 -1.125702,-1.13045 z"
@@ -137,18 +125,6 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.26458332"
          id="path3032" />
     </g>
-    <polygon
-       transform="matrix(0.00613869,0,0,0.00613775,14.805018,108.41606)"
-       style="clip-rule:evenodd;fill:#000000;fill-rule:evenodd;stroke-width:1.62913418;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
-       id="polygon824-0"
-       points="8305.8,4826 8298.74,4816.12 8297.33,4826 "
-       class="fil1" />
-    <polygon
-       transform="matrix(0.00613869,0,0,0.00613775,14.805018,108.41606)"
-       style="clip-rule:evenodd;fill:#000000;fill-rule:evenodd;stroke-width:1.62913418;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
-       id="polygon826-4"
-       points="7078.14,5359.4 7085.19,5369.28 7086.6,5359.4 "
-       class="fil1" />
     <path
        id="path822-2-0"
        d="m 60.391667,139.561 c -0.216933,0 -0.394426,0.17443 -0.394426,0.39244 0,0.21802 0.177493,0.39641 0.394426,0.39641 0.216933,0 0.394423,-0.17839 0.394423,-0.39641 0,-0.21801 -0.17749,-0.39244 -0.394423,-0.39244 z"
@@ -177,7 +153,7 @@
     <path
        id="path820-0-3"
        d="m 62.058042,136.36159 c -1.928877,0 -3.490932,1.56863 -3.490932,3.50575 0,1.94105 1.562055,3.50977 3.490932,3.50977 1.932997,0 3.495055,-1.56872 3.495055,-3.50977 0,-1.93712 -1.562058,-3.50575 -3.495055,-3.50575 z"
-       style="fill:none;stroke:#4a99d9;stroke-width:0.01;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#4a99d9;stroke-width:0.08;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
   </g>
 </svg>
