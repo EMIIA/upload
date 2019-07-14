@@ -29,7 +29,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4949863"
-     inkscape:cx="105.02818"
+     inkscape:cx="184.58534"
      inkscape:cy="67.076722"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -51,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -84,24 +84,24 @@
          style="stroke-width:0.26458332" /></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
-       x="109.65546"
-       y="165.89845"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="110.18462"
+       y="165.54449"
        id="text3037"><tspan
          sodipodi:role="line"
          id="tspan3035"
-         x="109.65546"
-         y="165.89845"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.26458332;">СКОРО — ТЕХНОЛОГИЯ КОГНИТИВНАЯ РАДИООПТИКА В</tspan><tspan
+         x="110.18462"
+         y="165.54449"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.26458332">СКОРО — ТЕХНОЛОГИЯ КОГНИТИВНАЯ РАДИООПТИКА В</tspan><tspan
          sodipodi:role="line"
-         x="109.65546"
-         y="169.42622"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.26458332;"
-         id="tspan3039">МАШИНАХ, ОБОРУДОВАНИИ, УСТРОЙСТВАХ, СИСТЕМАХ И</tspan><tspan
+         x="110.57599"
+         y="169.07227"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan3039">АВТОМОБИЛЯХ, МАШИНАХ, ОБОРУДОВАНИИ, УСТРОЙСТВАХ, </tspan><tspan
          sodipodi:role="line"
-         x="109.65546"
-         y="172.95401"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.26458332;"
-         id="tspan3041"> ПЛАТФОРМАХ IOT/IIOT</tspan></text>
+         x="110.18462"
+         y="172.60005"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan3041">СИСТЕМАХ И ПЛАТФОРМАХ IOT/IIOT</tspan></text>
   </g>
 </svg>
