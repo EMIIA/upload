@@ -15,7 +15,10 @@
    version="1.1"
    id="svg1181"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="emiia36.svg">
+   sodipodi:docname="emiia36.svg"
+   inkscape:export-filename="C:\Users\User1\Desktop\Бортник\emiia36.png"
+   inkscape:export-xdpi="952.74695"
+   inkscape:export-ydpi="952.74695">
   <defs
      id="defs1175" />
   <sodipodi:namedview
@@ -25,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="117.12379"
-     inkscape:cy="71.104582"
+     inkscape:zoom="11.2"
+     inkscape:cx="104.62379"
+     inkscape:cy="26.515453"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -388,12 +391,12 @@
        id="path4716"
        inkscape:connector-curvature="0" />
     <line
-       style="fill:none;stroke:#4a99d9;stroke-width:0.133;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#4a99d9;stroke-width:0.13838065;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        class="cls-1"
        x1="99.975914"
-       y1="113.5069"
+       y1="113.45965"
        x2="99.975914"
-       y2="114.93778"
+       y2="115.00865"
        id="line4718" />
   </g>
 </svg>
