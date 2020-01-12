@@ -74,27 +74,43 @@
          x="-1.7101167"
          y="165.82552"
          style="stroke-width:0.26458457" /></text>
-    <text
-       xml:space="preserve"
+    <g
+       aria-label="EMIIA"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.61247158px;line-height:1.25;font-family:Orbitron;-inkscape-font-specification:Orbitron;letter-spacing:0px;word-spacing:0px;fill:#2a2626;fill-opacity:1;stroke:none;stroke-width:0.2487298"
-       x="26.259356"
-       y="128.91223"
-       id="text5923"><tspan
-         sodipodi:role="line"
-         id="tspan5921"
-         x="26.259356"
-         y="128.91223"
-         style="font-size:10.61247158px;fill:#2a2626;fill-opacity:1;stroke-width:0.2487298">EMIIA</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93891191px;line-height:1.25;font-family:Orbitron;-inkscape-font-specification:Orbitron;letter-spacing:0px;word-spacing:0px;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:0.26458457;"
-       x="58.934235"
-       y="126.88281"
-       id="text5927"><tspan
-         sodipodi:role="line"
-         id="tspan5925"
-         x="58.934235"
-         y="126.88281"
-         style="font-size:4.93891191px;stroke-width:0.26458457;fill:#d3d3d3;fill-opacity:1;">AI</tspan></text>
+       id="text5923">
+      <path
+         d="m 33.847273,121.27125 v 0.85961 h -6.112784 v 2.52577 h 4.913574 v 0.87022 h -4.913574 v 2.52577 h 6.112784 v 0.85961 h -6.972394 v -7.64098 z"
+         style="font-size:10.61247158px;fill:#2a2626;fill-opacity:1;stroke-width:0.2487298"
+         id="path5929" />
+      <path
+         d="m 39.019029,125.04929 3.173129,-3.77804 h 1.177984 v 7.64098 h -0.85961 v -6.66463 l -3.491503,4.14948 -3.491503,-4.14948 v 6.66463 h -0.859611 v -7.64098 H 35.8459 Z"
+         style="font-size:10.61247158px;fill:#2a2626;fill-opacity:1;stroke-width:0.2487298"
+         id="path5931" />
+      <path
+         d="m 44.524083,128.91223 v -7.64098 h 0.85961 v 7.64098 z"
+         style="font-size:10.61247158px;fill:#2a2626;fill-opacity:1;stroke-width:0.2487298"
+         id="path5933" />
+      <path
+         d="m 46.866288,128.91223 v -7.64098 h 0.85961 v 7.64098 z"
+         style="font-size:10.61247158px;fill:#2a2626;fill-opacity:1;stroke-width:0.2487298"
+         id="path5935" />
+      <path
+         d="m 50.492602,121.27125 h 5.093987 q 0.530623,0 0.90206,0.37144 0.371436,0.37143 0.371436,0.90206 v 6.36748 h -0.85961 v -2.79108 h -5.921759 v 2.79108 h -0.85961 v -6.36748 q 0,-0.53063 0.371436,-0.90206 0.371437,-0.37144 0.90206,-0.37144 z m -0.413886,3.99029 h 5.921759 v -2.71679 q 0,-0.1698 -0.12735,-0.28654 -0.116737,-0.12735 -0.286536,-0.12735 h -5.093987 q -0.169799,0 -0.297149,0.12735 -0.116737,0.11674 -0.116737,0.28654 z"
+         style="font-size:10.61247158px;fill:#2a2626;fill-opacity:1;stroke-width:0.2487298"
+         id="path5937" />
+    </g>
+    <g
+       aria-label="AI"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93891191px;line-height:1.25;font-family:Orbitron;-inkscape-font-specification:Orbitron;letter-spacing:0px;word-spacing:0px;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:0.26458457"
+       id="text5927">
+      <path
+         d="m 59.813361,123.3268 h 2.370678 q 0.246945,0 0.419807,0.17286 0.172862,0.17286 0.172862,0.41981 v 2.96334 h -0.400052 v -1.29893 h -2.755913 v 1.29893 h -0.400051 v -2.96334 q 0,-0.24695 0.172861,-0.41981 0.172862,-0.17286 0.419808,-0.17286 z m -0.192618,1.85703 h 2.755913 v -1.26436 q 0,-0.079 -0.05927,-0.13336 -0.05433,-0.0593 -0.13335,-0.0593 h -2.370678 q -0.07902,0 -0.13829,0.0593 -0.05433,0.0543 -0.05433,0.13336 z"
+         style="font-size:4.93891191px;fill:#d3d3d3;fill-opacity:1;stroke-width:0.26458457"
+         id="path5940" />
+      <path
+         d="m 63.344374,126.88281 v -3.55601 h 0.400052 v 3.55601 z"
+         style="font-size:4.93891191px;fill:#d3d3d3;fill-opacity:1;stroke-width:0.26458457"
+         id="path5942" />
+    </g>
   </g>
 </svg>
